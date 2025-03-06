@@ -13,7 +13,9 @@ const Home = () => {
     const [data, setData] = useState(null);
     useEffect(() => {
         axios.get("https://bocoback.onrender.com/api/homes")
-          .then((res) => setData(res.data.data[0]))
+          .then((res) => {
+            setData(res.data.data[0])
+          })
           .catch((err) => console.error(err));
       }, []);
 

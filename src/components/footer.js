@@ -19,7 +19,8 @@ const Footer = ({company}) => {
                 <a href="#" className="font-bold text-2xl text-start">Products</a>             
             <a href={`${company.pages[0].link}`} className="text-xl text-start max-[770px]:text-lg">{company.pages[0].title}</a>
             <a href={`${company.pages[1].link}`} className="text-xl text-start max-[770px]:text-lg">{company.pages[1].title}</a>
-            <a href={`${company.pages[2].link}`} className="text-xl text-start max-[770px]:text-lg">{company.pages[2].title}</a>
+            <Link to="/case-studies" className="text-xl text-start max-[770px]:text-lg">{company.pages[2].title}</Link>
+            
             </div>
         </div>
         <div className="w-full px-36 max-[500px]:px-10">
