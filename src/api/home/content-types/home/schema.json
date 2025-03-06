@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "company": {
+      "type": "json"
+    },
+    "section1": {
+      "type": "json"
+    },
+    "section2": {
+      "type": "json"
+    },
+    "section3": {
+      "type": "json"
+    },
+    "section4": {
+      "type": "json"
+    },
+    "section5": {
+      "type": "json"
+    },
+    "section6": {
+      "type": "json"
+    }
+  }
+}
